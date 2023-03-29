@@ -18,4 +18,11 @@ public class ProductController {
     public Product findById(int id){
         return productService.findById(id);
     }
+
+    public void updateProduct(Product product){
+        productService.save(product);
+    }
+    public void deleteProduct(int id){
+        productService.deleteById(id);
+    }
 }

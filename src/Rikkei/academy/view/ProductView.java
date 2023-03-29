@@ -5,6 +5,7 @@ import Rikkei.academy.controller.ProductController;
 import Rikkei.academy.model.Product;
 
 import java.util.List;
+import java.util.Objects;
 
 public class ProductView {
     ProductController productController = new ProductController();
@@ -70,6 +71,66 @@ public class ProductView {
                 }
             } catch (Exception e) {
                 e.printStackTrace();
+            }
+        }
+    }
+
+    public void updateProduct() {
+        while (true) {
+            System.out.println("Enter the Id to update: ");
+            int id = Integer.parseInt(Config.scanner().nextLine());
+            if (productController.findById(id) == null) {
+                System.out.println("Id does not exist");
+            } else {
+                Product target = productController.findById(id);
+                System.out.println("Enter the Product name: ");
+                String name = Config.scanner().nextLine();
+                System.out.println("Enter the brand: ");
+                String brand = Config.scanner().nextLine();
+                float price;
+                while (true) {
+                    try {
+                        System.out.println("Enter the price: ");
+                        price = Float.parseFloat(Config.scanner().nextLine());
+                        break;
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }
+                System.out.println("Enter the description: ");
+                String description = Config.scanner().nextLine();
+                name = name.equals("") ? target.getProductName() : name;
+                brand = brand.equals("") ? target.getBrand() : brand;
+                brand = brand.equals("") ? target.getBrand() : brand;
+                description = description.equals("") ? target.getDescription() : description;
+                Product product = new Product(id, name, brand, price, description);
+                productController.updateProduct(product);
+                System.out.println("Update success!");
+                System.out.println("Enter any key to continue or BACK to return Menu");
+                String backMenu = Config.scanner().nextLine();
+                if (backMenu.equalsIgnoreCase("back")) {
+                    new Navbar();
+                    break;
+                }
+            }
+        }
+    }
+
+    public void deleteProduct() {
+        while (true) {
+            System.out.println("Enter productId that you want to delete: ");
+            int id = Integer.parseInt(Config.scanner().nextLine());
+            if (productController.findById(id) == null) {
+                System.out.println("Id does not exist");
+            } else {
+                productController.deleteProduct(id);
+                System.out.println("Delete success!");
+                System.out.println("Enter any key to continue or BACK to return Menu");
+                String backMenu = Config.scanner().nextLine();
+                if (backMenu.equalsIgnoreCase("back")) {
+                    new Navbar();
+                    break;
+                }
             }
         }
     }

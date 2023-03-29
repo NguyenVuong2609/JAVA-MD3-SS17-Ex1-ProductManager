@@ -7,7 +7,9 @@ public class Navbar {
         System.out.println("********************* Product Management *********************");
         System.out.println("1. Show list Product\n" +
                 "2. Add Product\n" +
-                "3. Find product by Id");
+                "3. Find product by Id\n" +
+                "4. Update product\n" +
+                "5. Delete product by Id");
         System.out.println("Please enter your choice: ");
         int choice = Config.scanner().nextInt();
         switch (choice){
@@ -19,6 +21,12 @@ public class Navbar {
                 break;
             case 3:
                 new ProductView().findProduct();
+                break;
+            case 4:
+                new ProductView().updateProduct();
+                break;
+            case 5:
+                new ProductView().deleteProduct();
                 break;
         }
     }

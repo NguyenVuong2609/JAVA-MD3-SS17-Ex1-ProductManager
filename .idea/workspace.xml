@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="744f5b82-258a-46a9-80fa-4e390f7019b4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Rikkei/academy/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rikkei/academy/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rikkei/academy/database/product.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rikkei/academy/database/product.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Rikkei/academy/service/ProductService/ProductServiceIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rikkei/academy/service/ProductService/ProductServiceIMPL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Rikkei/academy/view/Navbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rikkei/academy/view/Navbar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Rikkei/academy/view/ProductView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rikkei/academy/view/ProductView.java" afterDir="false" />
@@ -37,6 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Java/MD3-SS17-Ex1-ProductManager",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,7 +81,10 @@
       <updated>1680053906161</updated>
       <workItem from="1680053906578" duration="2259000" />
       <workItem from="1680056222126" duration="390000" />
-      <workItem from="1680056667000" duration="5572000" />
+      <workItem from="1680056667000" duration="6268000" />
+      <workItem from="1680063484183" duration="2639000" />
+      <workItem from="1680071443745" duration="70000" />
+      <workItem from="1680072483481" duration="960000" />
     </task>
     <servers />
   </component>
