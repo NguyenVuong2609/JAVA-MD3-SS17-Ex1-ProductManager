@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="744f5b82-258a-46a9-80fa-4e390f7019b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MD3-SS17-Ex1-ProductManager.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Rikkei/academy/config/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Rikkei/academy/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Rikkei/academy/database/product.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Rikkei/academy/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Rikkei/academy/service/IGenericService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Rikkei/academy/service/ProductService/IProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Rikkei/academy/service/ProductService/ProductServiceIMPL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Rikkei/academy/view/Navbar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Rikkei/academy/view/ProductView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rikkei/academy/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rikkei/academy/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rikkei/academy/service/ProductService/ProductServiceIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rikkei/academy/service/ProductService/ProductServiceIMPL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rikkei/academy/view/Navbar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rikkei/academy/view/Navbar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rikkei/academy/view/ProductView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rikkei/academy/view/ProductView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,21 +32,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Navbar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Rikkei.academy.view.Navbar" />
@@ -88,7 +78,7 @@
       <updated>1680053906161</updated>
       <workItem from="1680053906578" duration="2259000" />
       <workItem from="1680056222126" duration="390000" />
-      <workItem from="1680056667000" duration="3509000" />
+      <workItem from="1680056667000" duration="5572000" />
     </task>
     <servers />
   </component>

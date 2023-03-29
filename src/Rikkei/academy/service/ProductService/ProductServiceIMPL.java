@@ -21,6 +21,11 @@ public class ProductServiceIMPL implements IProductService {
 
     @Override
     public Product findById(int id) {
+        for (int i = 0; i < productList.size(); i++) {
+            if (productList.get(i).getId() == id){
+                return productList.get(i);
+            }
+        }
         return null;
     }
 
